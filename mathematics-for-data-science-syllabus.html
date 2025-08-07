@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematics for Data Science - Course Syllabus</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #ffffff;
+        }
+        
+        .header-image {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 20px;
+        }
+        
+        .course-title {
+            text-align: center;
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin: 20px 0 40px 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .container {
+            max-width: 8.5in;
+            margin: 0 auto;
+        }
+        
+        .course-info {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-left: 4px solid #2c3e50;
+        }
+        
+        .course-info h2 {
+            color: #2c3e50;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 5px;
+        }
+        
+        .info-grid {
+            display: grid;
+            gap: 10px;
+        }
+        
+        .info-item {
+            padding: 8px 0;
+            font-size: 1.1em;
+        }
+        
+        .info-item strong {
+            color: #2c3e50;
+            display: inline-block;
+            width: 120px;
+        }
+        
+        @media print {
+            body {
+                margin: 0;
+                padding: 0.5in;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="paraboloid_visualization.jpg" alt="Paraboloid - Mathematical Surface" class="header-image">
+        
+        <h1 class="course-title">Mathematics for Data Science</h1>
+        
+        <div class="course-info">
+            <h2>Course Information</h2>
+            <div class="info-grid">
+                <div class="info-item">
+                    <strong>Course:</strong> CIS-170-01FTM: MATHEMATICS FOR DATA SCIENCE
+                </div>
+                <div class="info-item">
+                    <strong>Schedule:</strong> Monday, Wednesday, Friday: 9:00 AM - 9:50 AM
+                </div>
+                <div class="info-item">
+                    <strong>Course:</strong> CIS-170-02FTE: MATHEMATICS FOR DATA SCIENCE
+                </div>
+                <div class="info-item">
+                    <strong>Schedule:</strong> Monday, Wednesday, Friday: 8:00 AM - 8:50 AM
+                </div>
+                <div class="info-item">
+                    <strong>Semester:</strong> Fall 2025
+                </div>
+                <div class="info-item">
+                    <strong>Location:</strong> Library 126
+                </div>
+                <div class="info-item">
+                    <strong>Credits:</strong> 3 (both sections)
+                </div>
+            </div>
+        </div>
+        
+        <div class="course-info">
+            <h2>Instructor Information</h2>
+            <div class="info-grid">
+                <div class="info-item">
+                    <strong>Instructor:</strong> Dr. Chad Redmond
+                </div>
+                <div class="info-item">
+                    <strong>Office:</strong> Library 416
+                </div>
+                <div class="info-item">
+                    <strong>Email:</strong> credmond@mercyhurst.edu
+                </div>
+                <div class="info-item">
+                    <strong>Phone:</strong> (814) 969-2269
+                </div>
+            </div>
+        </div>
+        
+        <div class="course-info">
+            <h2>Office Hours</h2>
+            <div class="info-grid">
+                <div class="info-item">
+                    <strong>Days/Times:</strong> Monday, Wednesday, Friday: 11:00 AM - 12:10 PM
+                </div>
+                <div class="info-item">
+                    <strong>Location:</strong> Library 416 (My Office)
+                </div>
+                <div class="info-item">
+                    <strong>Evening Hours:</strong> Monday, Wednesday: 8:15 PM - 9:30 PM
+                </div>
+                <div class="info-item">
+                    <strong>Evening Location:</strong> Cyber Security Labs
+                </div>
+            </div>
+        </div>
+        
+        <div class="course-info">
+            <h2>Course Description</h2>
+            <p style="font-size: 1.1em; line-height: 1.7; margin: 0; padding: 0;">
+                An exploration of essential mathematical foundations required for data science applications, with a focus on calculus concepts and their practical implementations. Students will study Calculus I topics including lines, functions, derivatives, and tangent lines, along with Calculus III concepts such as surfaces, traces, partial derivatives, and the gradient vector. A central emphasis is placed on gradient descent optimization, which serves as the backbone for modern machine learning algorithms. The course covers linear regression, multiple regression, and logistic regression, demonstrating how gradient descent applies to these fundamental data science techniques. Students will develop interactive web applications to visualize and illustrate mathematical concepts, gaining both theoretical understanding and practical programming experience. The course emphasizes collaborative development using GitHub, GitHub Codespaces, and GitHub Copilot, preparing students to work effectively in modern data science environments where mathematical rigor meets computational implementation.
+            </p>
+        </div>
+        
+        <div class="course-info">
+            <h2>Learning Objectives</h2>
+            <div style="font-size: 1.1em; line-height: 1.7;">
+                <p style="margin: 0 0 15px 0; padding: 0; font-weight: bold; color: #2c3e50;">Calculus I Foundations:</p>
+                <ul style="margin: 0 0 15px 20px; padding: 0;">
+                    <li>Analyze and manipulate linear equations, understanding slope, intercepts, and geometric interpretations</li>
+                    <li>Work with various function types including polynomial, exponential, logarithmic, and trigonometric functions</li>
+                    <li>Calculate derivatives using differentiation rules and interpret their meaning as rates of change</li>
+                    <li>Construct tangent lines to curves and understand their geometric and analytical significance</li>
+                    <li>Apply derivative concepts to solve optimization problems in single-variable contexts</li>
+                </ul>
+                
+                <p style="margin: 0 0 15px 0; padding: 0; font-weight: bold; color: #2c3e50;">Calculus III & Multivariable Analysis:</p>
+                <ul style="margin: 0 0 15px 20px; padding: 0;">
+                    <li>Visualize and analyze three-dimensional surfaces and their mathematical representations</li>
+                    <li>Generate and interpret traces of surfaces in different coordinate planes</li>
+                    <li>Compute partial derivatives and understand their geometric and practical interpretations</li>
+                    <li>Calculate and apply the gradient vector for optimization and directional analysis</li>
+                </ul>
+                
+                <p style="margin: 0 0 15px 0; padding: 0; font-weight: bold; color: #2c3e50;">Optimization & Gradient Descent:</p>
+                <ul style="margin: 0 0 15px 20px; padding: 0;">
+                    <li>Implement gradient descent algorithms for both single and multivariable optimization problems</li>
+                    <li>Understand the mathematical theory behind gradient descent and its convergence properties</li>
+                    <li>Apply gradient descent to minimize cost functions in machine learning contexts</li>
+                    <li>Analyze learning rates, convergence criteria, and optimization challenges</li>
+                </ul>
+                
+                <p style="margin: 0 0 15px 0; padding: 0; font-weight: bold; color: #2c3e50;">Regression Methods & Applications:</p>
+                <ul style="margin: 0 0 15px 20px; padding: 0;">
+                    <li>Derive and implement linear regression using both analytical and gradient descent approaches</li>
+                    <li>Extend to multiple regression with multiple predictor variables and matrix formulations</li>
+                    <li>Understand and implement logistic regression for classification problems</li>
+                    <li>Apply gradient descent optimization to train regression models effectively</li>
+                    <li>Evaluate model performance and understand the mathematical basis of common metrics</li>
+                </ul>
+                
+                <p style="margin: 0 0 15px 0; padding: 0; font-weight: bold; color: #2c3e50;">Web Development & Visualization:</p>
+                <ul style="margin: 0 0 15px 20px; padding: 0;">
+                    <li>Build interactive web applications that demonstrate mathematical concepts and algorithms</li>
+                    <li>Create dynamic visualizations of functions, derivatives, surfaces, and optimization processes</li>
+                    <li>Develop user interfaces that allow real-time exploration of mathematical parameters</li>
+                    <li>Implement mathematical algorithms in web-based environments for educational and practical use</li>
+                </ul>
+                
+                <p style="margin: 0 0 15px 0; padding: 0; font-weight: bold; color: #2c3e50;">Collaborative Development Tools:</p>
+                <ul style="margin: 0 0 0 20px; padding: 0;">
+                    <li>Demonstrate proficiency in using GitHub for version control and collaborative mathematical programming</li>
+                    <li>Utilize GitHub Codespaces for cloud-based development of mathematical applications</li>
+                    <li>Apply GitHub Copilot for AI-assisted coding in mathematical and data science contexts</li>
+                    <li>Follow best practices for documenting mathematical code and sharing reproducible analyses</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="course-info">
+            <h2>Grading</h2>
+            <div style="font-size: 1.1em; line-height: 1.7;">
+                <p style="margin: 0 0 15px 0; padding: 0; font-weight: bold; color: #2c3e50;">Grade Components:</p>
+                <ul style="margin: 0 0 20px 20px; padding: 0;">
+                    <li>Quiz 1: 75 points</li>
+                    <li>Quiz 2: 75 points</li>
+                    <li>Quiz 3: 75 points</li>
+                    <li>Quiz 4: 75 points</li>
+                    <li>Final Exam: 100 points</li>
+                    <li>Attendance: 100 points</li>
+                    <li>Participation: 100 points</li>
+                </ul>
+                
+                <p style="margin: 0 0 15px 0; padding: 0; font-weight: bold; color: #2c3e50;">Total Points: 600</p>
+                
+                <p style="margin: 0 0 15px 0; padding: 0; font-weight: bold; color: #2c3e50;">Grade Scale:</p>
+                <table style="width: 100%; border-collapse: collapse; margin: 0 0 0 20px; max-width: 400px;">
+                    <tr>
+                        <td style="padding: 4px 12px; border: 1px solid #ddd; background-color: #f8f9fa;"><strong>Grade</strong></td>
+                        <td style="padding: 4px 12px; border: 1px solid #ddd; background-color: #f8f9fa;"><strong>Points Required</strong></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 4px 12px; border: 1px solid #ddd;">A</td>
+                        <td style="padding: 4px 12px; border: 1px solid #ddd;">550-600</td>
+                    </tr>
+                    <tr style="background-color: #f9f9f9;">
+                        <td style="padding: 4px 12px; border: 1px solid #ddd;">B+</td>
+                        <td style="padding: 4px 12px; border: 1px solid #ddd;">500-549</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 4px 12px; border: 1px solid #ddd;">B</td>
+                        <td style="padding: 4px 12px; border: 1px solid #ddd;">400-499</td>
+                    </tr>
+                    <tr style="background-color: #f9f9f9;">
+                        <td style="padding: 4px 12px; border: 1px solid #ddd;">C+</td>
+                        <td style="padding: 4px 12px; border: 1px solid #ddd;">350-399</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 4px 12px; border: 1px solid #ddd;">C</td>
+                        <td style="padding: 4px 12px; border: 1px solid #ddd;">300-349</td>
+                    </tr>
+                    <tr style="background-color: #f9f9f9;">
+                        <td style="padding: 4px 12px; border: 1px solid #ddd;">D+</td>
+                        <td style="padding: 4px 12px; border: 1px solid #ddd;">250-299</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 4px 12px; border: 1px solid #ddd;">D</td>
+                        <td style="padding: 4px 12px; border: 1px solid #ddd;">200-249</td>
+                    </tr>
+                    <tr style="background-color: #f9f9f9;">
+                        <td style="padding: 4px 12px; border: 1px solid #ddd;">F</td>
+                        <td style="padding: 4px 12px; border: 1px solid #ddd;">Below 200</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        <div class="course-info">
+            <h2>Tentative Schedule</h2>
+            <div style="font-size: 1.1em; line-height: 1.7;">
+                <table style="width: 100%; border-collapse: collapse; margin: 0;">
+                    <thead>
+                        <tr style="background-color: #2c3e50; color: white;">
+                            <th style="padding: 10px; text-align: left; border: 1px solid #ddd;">Date</th>
+                            <th style="padding: 10px; text-align: left; border: 1px solid #ddd;">Day</th>
+                            <th style="padding: 10px; text-align: left; border: 1px solid #ddd;">Topics</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td style="padding: 8px; border: 1px solid #ddd;">August 20</td><td style="padding: 8px; border: 1px solid #ddd;">Wednesday</td><td style="padding: 8px; border: 1px solid #ddd;">Orientation to GitHub, Codespaces, and Copilot</td></tr>
+                        <tr style="background-color: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd;">August 22</td><td style="padding: 8px; border: 1px solid #ddd;">Friday</td><td style="padding: 8px; border: 1px solid #ddd;">Making and Publishing a Simple Web App</td></tr>
+                        <tr><td style="padding: 8px; border: 1px solid #ddd;">August 25</td><td style="padding: 8px; border: 1px solid #ddd;">Monday</td><td style="padding: 8px; border: 1px solid #ddd;">Plotting</td></tr>
+                        <tr style="background-color: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd;">August 27</td><td style="padding: 8px; border: 1px solid #ddd;">Wednesday</td><td style="padding: 8px; border: 1px solid #ddd;">Slope</td></tr>
+                        <tr><td style="padding: 8px; border: 1px solid #ddd;">August 29</td><td style="padding: 8px; border: 1px solid #ddd;">Friday</td><td style="padding: 8px; border: 1px solid #ddd;">Equation of a Line</td></tr>
+                        <tr style="background-color: #ffe6e6;"><td style="padding: 8px; border: 1px solid #ddd;">September 1</td><td style="padding: 8px; border: 1px solid #ddd;">Monday</td><td style="padding: 8px; border: 1px solid #ddd;">Labor Day (no class)</td></tr>
+                        <tr style="background-color: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd;">September 3</td><td style="padding: 8px; border: 1px solid #ddd;">Wednesday</td><td style="padding: 8px; border: 1px solid #ddd;">Meaning of the Equation of a Line</td></tr>
+                        <tr><td style="padding: 8px; border: 1px solid #ddd;">September 5</td><td style="padding: 8px; border: 1px solid #ddd;">Friday</td><td style="padding: 8px; border: 1px solid #ddd;">Other Important Functions</td></tr>
+                        <tr style="background-color: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd;">September 8</td><td style="padding: 8px; border: 1px solid #ddd;">Monday</td><td style="padding: 8px; border: 1px solid #ddd;">Tangent Lines</td></tr>
+                        <tr style="background-color: #e6f3ff;"><td style="padding: 8px; border: 1px solid #ddd;">September 10</td><td style="padding: 8px; border: 1px solid #ddd;">Wednesday</td><td style="padding: 8px; border: 1px solid #ddd;">Practice Quiz</td></tr>
+                        <tr style="background-color: #e6f3ff;"><td style="padding: 8px; border: 1px solid #ddd;">September 12</td><td style="padding: 8px; border: 1px solid #ddd;">Friday</td><td style="padding: 8px; border: 1px solid #ddd;">Quiz 1</td></tr>
+                        <tr><td style="padding: 8px; border: 1px solid #ddd;">September 15</td><td style="padding: 8px; border: 1px solid #ddd;">Monday</td><td style="padding: 8px; border: 1px solid #ddd;">SymPy</td></tr>
+                        <tr style="background-color: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd;">September 17</td><td style="padding: 8px; border: 1px solid #ddd;">Wednesday</td><td style="padding: 8px; border: 1px solid #ddd;">Equations of Tangent Lines</td></tr>
+                        <tr><td style="padding: 8px; border: 1px solid #ddd;">September 19</td><td style="padding: 8px; border: 1px solid #ddd;">Friday</td><td style="padding: 8px; border: 1px solid #ddd;">Gradient Vector in 2D</td></tr>
+                        <tr style="background-color: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd;">September 22</td><td style="padding: 8px; border: 1px solid #ddd;">Monday</td><td style="padding: 8px; border: 1px solid #ddd;">Visualizing Gradient Descent</td></tr>
+                        <tr><td style="padding: 8px; border: 1px solid #ddd;">September 24</td><td style="padding: 8px; border: 1px solid #ddd;">Wednesday</td><td style="padding: 8px; border: 1px solid #ddd;">Implementing Gradient Descent</td></tr>
+                        <tr style="background-color: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd;">September 26</td><td style="padding: 8px; border: 1px solid #ddd;">Friday</td><td style="padding: 8px; border: 1px solid #ddd;">Mean Squared Error</td></tr>
+                        <tr><td style="padding: 8px; border: 1px solid #ddd;">September 29</td><td style="padding: 8px; border: 1px solid #ddd;">Monday</td><td style="padding: 8px; border: 1px solid #ddd;">Line of Best Fit</td></tr>
+                        <tr style="background-color: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd;">October 1</td><td style="padding: 8px; border: 1px solid #ddd;">Wednesday</td><td style="padding: 8px; border: 1px solid #ddd;">Animating Gradient Descent</td></tr>
+                        <tr><td style="padding: 8px; border: 1px solid #ddd;">October 3</td><td style="padding: 8px; border: 1px solid #ddd;">Friday</td><td style="padding: 8px; border: 1px solid #ddd;">3D Plotting</td></tr>
+                        <tr style="background-color: #e6f3ff;"><td style="padding: 8px; border: 1px solid #ddd;">October 6</td><td style="padding: 8px; border: 1px solid #ddd;">Monday</td><td style="padding: 8px; border: 1px solid #ddd;">Quiz 2</td></tr>
+                        <tr><td style="padding: 8px; border: 1px solid #ddd;">October 8</td><td style="padding: 8px; border: 1px solid #ddd;">Wednesday</td><td style="padding: 8px; border: 1px solid #ddd;">Midterm Re-cap</td></tr>
+                        <tr style="background-color: #ffe6e6;"><td style="padding: 8px; border: 1px solid #ddd;">October 10</td><td style="padding: 8px; border: 1px solid #ddd;">Friday</td><td style="padding: 8px; border: 1px solid #ddd;">Fall Break (no class)</td></tr>
+                        <tr style="background-color: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd;">October 13</td><td style="padding: 8px; border: 1px solid #ddd;">Monday</td><td style="padding: 8px; border: 1px solid #ddd;">Surfaces</td></tr>
+                        <tr><td style="padding: 8px; border: 1px solid #ddd;">October 15</td><td style="padding: 8px; border: 1px solid #ddd;">Wednesday</td><td style="padding: 8px; border: 1px solid #ddd;">Plotting on Surfaces</td></tr>
+                        <tr style="background-color: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd;">October 17</td><td style="padding: 8px; border: 1px solid #ddd;">Friday</td><td style="padding: 8px; border: 1px solid #ddd;">Traces</td></tr>
+                        <tr><td style="padding: 8px; border: 1px solid #ddd;">October 20</td><td style="padding: 8px; border: 1px solid #ddd;">Monday</td><td style="padding: 8px; border: 1px solid #ddd;">Tangent Lines on Traces</td></tr>
+                        <tr style="background-color: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd;">October 22</td><td style="padding: 8px; border: 1px solid #ddd;">Wednesday</td><td style="padding: 8px; border: 1px solid #ddd;">Partial Derivatives</td></tr>
+                        <tr><td style="padding: 8px; border: 1px solid #ddd;">October 24</td><td style="padding: 8px; border: 1px solid #ddd;">Friday</td><td style="padding: 8px; border: 1px solid #ddd;">Gradient Vector in 3D</td></tr>
+                        <tr style="background-color: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd;">October 27</td><td style="padding: 8px; border: 1px solid #ddd;">Monday</td><td style="padding: 8px; border: 1px solid #ddd;">Gradient Descent in 3D</td></tr>
+                        <tr><td style="padding: 8px; border: 1px solid #ddd;">October 29</td><td style="padding: 8px; border: 1px solid #ddd;">Wednesday</td><td style="padding: 8px; border: 1px solid #ddd;">Linear Regression</td></tr>
+                        <tr style="background-color: #e6f3ff;"><td style="padding: 8px; border: 1px solid #ddd;">October 31</td><td style="padding: 8px; border: 1px solid #ddd;">Friday</td><td style="padding: 8px; border: 1px solid #ddd;">Quiz 3</td></tr>
+                        <tr><td style="padding: 8px; border: 1px solid #ddd;">November 3</td><td style="padding: 8px; border: 1px solid #ddd;">Monday</td><td style="padding: 8px; border: 1px solid #ddd;">Linear Regression via Gradient Descent</td></tr>
+                        <tr style="background-color: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd;">November 5</td><td style="padding: 8px; border: 1px solid #ddd;">Wednesday</td><td style="padding: 8px; border: 1px solid #ddd;">Multiple Regression</td></tr>
+                        <tr><td style="padding: 8px; border: 1px solid #ddd;">November 7</td><td style="padding: 8px; border: 1px solid #ddd;">Friday</td><td style="padding: 8px; border: 1px solid #ddd;">Applications of Linear Regression</td></tr>
+                        <tr style="background-color: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd;">November 10</td><td style="padding: 8px; border: 1px solid #ddd;">Monday</td><td style="padding: 8px; border: 1px solid #ddd;">Polynomial Regression</td></tr>
+                        <tr><td style="padding: 8px; border: 1px solid #ddd;">November 12</td><td style="padding: 8px; border: 1px solid #ddd;">Wednesday</td><td style="padding: 8px; border: 1px solid #ddd;">Classification and Decision Boundaries</td></tr>
+                        <tr style="background-color: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd;">November 14</td><td style="padding: 8px; border: 1px solid #ddd;">Friday</td><td style="padding: 8px; border: 1px solid #ddd;">Confusion Matrices</td></tr>
+                        <tr><td style="padding: 8px; border: 1px solid #ddd;">November 17</td><td style="padding: 8px; border: 1px solid #ddd;">Monday</td><td style="padding: 8px; border: 1px solid #ddd;">Sigmoid Functions</td></tr>
+                        <tr style="background-color: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd;">November 19</td><td style="padding: 8px; border: 1px solid #ddd;">Wednesday</td><td style="padding: 8px; border: 1px solid #ddd;">Log Loss</td></tr>
+                        <tr><td style="padding: 8px; border: 1px solid #ddd;">November 21</td><td style="padding: 8px; border: 1px solid #ddd;">Friday</td><td style="padding: 8px; border: 1px solid #ddd;">Logistic Regression</td></tr>
+                        <tr style="background-color: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd;">November 24</td><td style="padding: 8px; border: 1px solid #ddd;">Monday</td><td style="padding: 8px; border: 1px solid #ddd;">Animating Logistic Regression</td></tr>
+                        <tr style="background-color: #ffe6e6;"><td style="padding: 8px; border: 1px solid #ddd;">November 26</td><td style="padding: 8px; border: 1px solid #ddd;">Wednesday</td><td style="padding: 8px; border: 1px solid #ddd;">Thanksgiving Break (no class)</td></tr>
+                        <tr style="background-color: #ffe6e6;"><td style="padding: 8px; border: 1px solid #ddd;">November 28</td><td style="padding: 8px; border: 1px solid #ddd;">Friday</td><td style="padding: 8px; border: 1px solid #ddd;">Thanksgiving Break (no class)</td></tr>
+                        <tr><td style="padding: 8px; border: 1px solid #ddd;">December 1</td><td style="padding: 8px; border: 1px solid #ddd;">Monday</td><td style="padding: 8px; border: 1px solid #ddd;">Classification with Two Features</td></tr>
+                        <tr style="background-color: #e6f3ff;"><td style="padding: 8px; border: 1px solid #ddd;">December 3</td><td style="padding: 8px; border: 1px solid #ddd;">Wednesday</td><td style="padding: 8px; border: 1px solid #ddd;">Quiz 4</td></tr>
+                        <tr><td style="padding: 8px; border: 1px solid #ddd;">December 5</td><td style="padding: 8px; border: 1px solid #ddd;">Friday</td><td style="padding: 8px; border: 1px solid #ddd;">Course Re-cap</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="course-info">
+            <h2>Academic Honesty Policy</h2>
+            <div style="font-size: 1.1em; line-height: 1.7;">
+                <p style="margin: 0; padding: 0;">
+                    Students are expected to adhere to Mercyhurst University's Academic Honesty Policy. Please review the complete policy at:
+                </p>
+                <p style="margin: 10px 0 0 0; padding: 0;">
+                    <a href="https://www.course-catalog.com/mercyhurst/C/2023-2024/content/academic-affairs/academic-honesty/41" target="_blank" style="color: #2c3e50; text-decoration: underline;">
+                        https://www.course-catalog.com/mercyhurst/C/2023-2024/content/academic-affairs/academic-honesty/41
+                    </a>
+                </p>
+            </div>
+        </div>
+        
+        <div class="course-info">
+            <h2>ADA Accommodations & Accessibility</h2>
+            <div style="font-size: 1.1em; line-height: 1.7;">
+                <p style="margin: 0 0 15px 0; padding: 0;">
+                    Mercyhurst University values inclusion and is committed to the goal of providing equal opportunities for all. It is our policy and practice to create accessible learning environments consistent with federal and state law.
+                </p>
+                <p style="margin: 0 0 15px 0; padding: 0;">
+                    Students who are currently eligible should verify as instructed and contact me to discuss how their accommodations will be implemented in this class.
+                </p>
+                <p style="margin: 0 0 15px 0; padding: 0;">
+                    Students who have not been determined eligible, but have a temporary limitation (e.g., broken leg) or permanent medical, physical, sensory, learning, cognitive, or mental health disability issue that requires accommodations, should contact the ADA Coordinator to make a request. Requests for accommodations can be made at any time throughout the calendar year and at any point in a student's enrollment.
+                </p>
+                <p style="margin: 0 0 15px 0; padding: 0;">
+                    Please contact Susan Reddinger, ADA Coordinator and Compliance Officer, at ada@mercyhurst.edu, 814-824-2362, or in Old Main 300. Additional information can be found on the student hub <a href="https://lakersmercyhurst.sharepoint.com/sites/StudentsHub" target="_blank" style="color: #2c3e50; text-decoration: underline;">https://lakersmercyhurst.sharepoint.com/sites/StudentsHub</a> under the Services tab.
+                </p>
+                <p style="margin: 0; padding: 0;">
+                    Students with questions about Academic Support, please refer to the Hub <a href="https://lakersmercyhurst.sharepoint.com/sites/StudentsHub" target="_blank" style="color: #2c3e50; text-decoration: underline;">https://lakersmercyhurst.sharepoint.com/sites/StudentsHub</a> and select the Academic Resources tab, then Academic Support for more information.
+                </p>
+            </div>
+        </div>
+        
+        <div class="course-info">
+            <h2>Title IX</h2>
+            <div style="font-size: 1.1em; line-height: 1.7;">
+                <p style="margin: 0 0 15px 0; padding: 0;">
+                    Mercyhurst is committed to providing an environment free from sex discrimination, including sexual harassment and sexual violence. Please refer to the HUB: <a href="https://lakersmercyhurst.sharepoint.com/sites/StudentsHub" target="_blank" style="color: #2c3e50; text-decoration: underline;">https://lakersmercyhurst.sharepoint.com/sites/StudentsHub</a> and select the Resources tab, then Title IX – Sexual Respect from the dropdown for more information.
+                </p>
+                <p style="margin: 0; padding: 0;">
+                    If you would like to file a sexual misconduct complaint, please contact Ann Miller, Title IX Coordinator and Compliance Officer, titleix@mercyhurst.edu , 814-824-2363, Egan Hall 311. Please be aware that in compliance with Title IX, educators must report incidents of sexual assault/harassment, stalking, domestic/dating violence, sex discrimination, and hostile environment harassment. If you disclose any of these situations in class, in papers, or to a faculty or staff member personally, they are required to report it to the Title IX Coordinator (or any of the Deputy Title IX Coordinators).
+                </p>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
